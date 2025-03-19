@@ -13,8 +13,18 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-          <div className="flex navbar-end items-center gap-5 pr-9">
+          <div className="flex navbar-end items-center gap-2 pr-9">
             <ThemeSwitcher />
+            <Link href="/sign-in">
+              <button className="btn btn-neutral rounded-2xl">
+                SignIn
+              </button>
+            </Link>
+            <Link href="/sign-up">
+              <button className="btn btn-outline rounded-2xl">
+                Get Started
+              </button>
+            </Link>
           </div>
         </div>
       </nav>
